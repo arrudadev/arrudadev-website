@@ -1,0 +1,25 @@
+{
+  "name": "arrudadev-website",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "prettier": "prettier \"**/*.astro\" --write",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "dependencies": {
+    "astro": "^5.16.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.20.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "neostandard": "^0.12.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.9.3"
+  }
+}
